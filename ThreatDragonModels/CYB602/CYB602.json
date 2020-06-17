@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "CYB602",
+    "owner": "Chris",
+    "description": "AWS S3 bucket security"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "AWS S3 bucket security",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Josh"
+  }
+}
