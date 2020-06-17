@@ -10,7 +10,211 @@
       {
         "title": "AWS S3 bucket security",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 470,
+                "y": 270
+              },
+              "angle": 0,
+              "id": "5a296205-3cc7-41ea-8563-7dd581b5ca1e",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "S3 Bucket"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 110,
+                "y": 240
+              },
+              "angle": 0,
+              "id": "f6429659-0c0d-4b6c-8e62-ee0c95000911",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "WebApp"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 470,
+                "y": 40
+              },
+              "angle": 0,
+              "id": "ebed2874-0996-4863-b97d-a4958334a266",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "AWS Console"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 80,
+                "y": 40
+              },
+              "angle": 0,
+              "id": "3f4a08a0-9b5a-4425-8f45-a5b9a6a11668",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Browser"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 3,
+                "y": 160
+              },
+              "target": {
+                "x": 820,
+                "y": 160
+              },
+              "vertices": [],
+              "id": "8014d737-f629-4c9b-aa09-9c57a67f0ee5",
+              "z": 7,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 90,
+                "y": 430
+              },
+              "angle": 0,
+              "id": "7a94a021-5268-4673-9b64-01aa57ed14a2",
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "User Database"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 640,
+                "y": 390
+              },
+              "target": {
+                "x": 630,
+                "y": 230
+              },
+              "vertices": [
+                {
+                  "x": 440,
+                  "y": 370
+                },
+                {
+                  "x": 440,
+                  "y": 250
+                }
+              ],
+              "id": "b5034bf4-c0f7-4a07-9dea-8dff07ccef55",
+              "z": 9,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 50,
+                "y": 520
+              },
+              "target": {
+                "x": 300,
+                "y": 520
+              },
+              "vertices": [
+                {
+                  "x": 90,
+                  "y": 400
+                },
+                {
+                  "x": 250,
+                  "y": 400
+                }
+              ],
+              "id": "8ac7838b-ec39-4f42-9235-b3a91642f94c",
+              "z": 10,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 820
+        }
       }
     ],
     "reviewer": "Josh"
